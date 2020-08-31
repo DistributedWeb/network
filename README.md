@@ -1,15 +1,15 @@
-# @hyperswarm/network
+# @dwebswarm/network
 
-The low level networking guts of the Hyperswarm stack.
+The low level networking guts of the DWebswarm stack.
 
 ```
-npm install @hyperswarm/network
+npm install @dwebswarm/network
 ```
 
 ## Usage
 
 ``` js
-const network = require('@hyperswarm/network')()
+const network = require('@dwebswarm/network')()
 
 const nw = network()
 
@@ -74,15 +74,15 @@ Callback is called with `(err, socket, isTCP)`. If the underlying socket is a TC
 
 #### `announcer = nw.announce(topic)`
 
-Start announcing the network on the Hyperswarm discovery network.
+Start announcing the network on the DWebswarm discovery network.
 
 #### `lookup = nw.lookup(topic)`
 
-Start doing a lookup on the Hyperswarm discovery network.
+Start doing a lookup on the DWebswarm discovery network.
 
 #### `nw.lookupOne(topic, callback)`
 
-Lookup a single peer on the Hyperswarm discovery network.
+Lookup a single peer on the DWebswarm discovery network.
 
 ## License
 
