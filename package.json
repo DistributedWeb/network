@@ -1,7 +1,7 @@
 {
   "name": "@dwebswarm/network",
   "version": "3.0.0",
-  "description": "The networking guts of DWebswarm",
+  "description": "Low-level networking APIs of the dWeb networking stack.",
   "main": "index.js",
   "scripts": {
     "test": "tap -T test/*.test.js && standard --fix",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dwebswarm/network.git"
+    "url": "git+https://github.com/DistributedWeb/network.git"
   },
   "keywords": [
     "dwebswarm",
@@ -18,15 +18,15 @@
     "p2p",
     "network"
   ],
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "Peeps Labs <peepslabs@gmail.com>",
   "contributors": [
-    "David Mark Clements (@davidmarkclem)"
+    "Peeps Labs <peepslabs@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dwebswarm/network/issues"
+    "url": "https://github.com/DistributedWeb/network/issues"
   },
-  "homepage": "https://github.com/dwebswarm/network#readme",
+  "homepage": "https://github.com/DistributedWeb/network#readme",
   "dependencies": {
     "@dwebswarm/discovery": "git://github.com/DistributedWeb/discovery.git#0fbb0a0daab17602e1a1208669579bb05b2abe52",
     "nanoresource": "^1.3.0",
