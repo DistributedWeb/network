@@ -1,6 +1,6 @@
 # @dwebswarm/network
 
-The low level networking guts of the DWebswarm stack.
+The low level networking guts of the dWebSwarm Stack.
 
 ```
 npm install @dwebswarm/network
